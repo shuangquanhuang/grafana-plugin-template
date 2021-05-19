@@ -1,0 +1,42 @@
+{
+    "name": "demoscratch",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "clean-dist": "rimraf dist/*",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npm run clean-dist && webpack",
+        "start": "webpack serve"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.14.3",
+        "@babel/node": "^7.14.2",
+        "@babel/plugin-proposal-class-properties": "^7.13.0",
+        "@babel/preset-env": "^7.14.2",
+        "@babel/preset-react": "^7.13.13",
+        "@grafana/data": "latest",
+        "@grafana/toolkit": "latest",
+        "@grafana/ui": "latest",
+        "babel-loader": "^8.2.2",
+        "copy-webpack-plugin": "5.1.2",
+        "css-loader": "^5.2.4",
+        "emotion": "10.0.27",
+        "file-loader": "^6.2.0",
+        "image-webpack-loader": "^7.0.1",
+        "node-sass": "^6.0.0",
+        "path": "^0.12.7",
+        "sass-loader": "^11.1.1",
+        "style-loader": "^2.0.0",
+        "webpack": "4.41.5",
+        "webpack-cli": "^4.6.0",
+        "webpack-dev-server": "^3.11.2",
+        "@babel/preset-typescript": "^7.13.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "dependencies": {}
+}
