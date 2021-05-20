@@ -18,9 +18,11 @@
         "@babel/plugin-proposal-class-properties": "^7.13.0",
         "@babel/preset-env": "^7.14.2",
         "@babel/preset-react": "^7.13.13",
+        "@babel/preset-typescript": "^7.13.0",
         "@grafana/data": "latest",
         "@grafana/toolkit": "latest",
         "@grafana/ui": "latest",
+        "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
         "babel-loader": "^8.2.2",
         "copy-webpack-plugin": "5.1.2",
         "css-loader": "^5.2.4",
@@ -29,14 +31,15 @@
         "image-webpack-loader": "^7.0.1",
         "node-sass": "^6.0.0",
         "path": "^0.12.7",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-refresh": "^0.10.0",
         "sass-loader": "^11.1.1",
         "style-loader": "^2.0.0",
         "webpack": "4.41.5",
         "webpack-cli": "^4.6.0",
         "webpack-dev-server": "^3.11.2",
-        "@babel/preset-typescript": "^7.13.0",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "webpack-merge": "^5.7.3"
     },
     "dependencies": {}
 }
